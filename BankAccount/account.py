@@ -2,6 +2,14 @@ class BankAccount:
     def __init__(self):
         self.branchID = 1
         self.branchName = "Wandegeya"
+        self.accountNo = ""
+        self.accountName = ""
+        self.amount = ""
+        self.name = ""
+        self.phone = ""
+        self.dob = ""
+        self.location = ""
+        self.status = ""
 
     def get_balance(self):
         if self.status == 'active':
